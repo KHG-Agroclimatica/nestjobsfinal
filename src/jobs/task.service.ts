@@ -15,7 +15,7 @@ export class TaskService {
         let result = this.httpService.get("http://localhost:3000/report");
 
         result.subscribe((data)=>{
-            console.log(data);
+            // console.log(data);
             // this.logger.debug(data);
         })
     }

@@ -6,5 +6,9 @@ export default () => ({
         username: process.env.DB_USERNAME,
         password: process.env.DB_PASSWORD,
         database: process.env.DB_DATABASE
+    },
+    mailgun: {
+        domain: process.env.MAIL_DOMAIN,
+        apiKey: process.env.MAILGUN_API,
     }
 })
